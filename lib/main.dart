@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_strings.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:swipe/assets/themes/default_theme.dart';
+import 'package:swipe/assets/themes/swipe_theme.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,11 +22,12 @@ class MyApp extends StatelessWidget {
       supportedLocales: [
         const Locale('ru', ''),
       ],
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Scaffold(
-        body: Container(),
+      theme: defaultTheme(),
+      home: SwipeTheme(
+        swipeThemeData: defaultSwipeTheme(),
+        child: Scaffold(
+          body: Container(),
+        ),
       ),
     );
   }
