@@ -3,6 +3,7 @@ import 'package:flutter_gen/gen_l10n/app_strings.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:swipe/assets/themes/default_theme.dart';
 import 'package:swipe/assets/themes/swipe_theme.dart';
+import 'package:swipe/presentation/screens/authentification.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       home: SwipeTheme(
         swipeThemeData: defaultSwipeTheme(),
         child: Scaffold(
-          body: Container(),
+          body: Authorization(),
         ),
       ),
     );

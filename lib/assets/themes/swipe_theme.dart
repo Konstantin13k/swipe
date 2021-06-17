@@ -3,10 +3,12 @@ import 'package:flutter/material.dart';
 class SwipeThemeData {
   final Gradient primaryGradient;
   final Gradient authScreenBackground;
+  final Color authTextColor;
 
   const SwipeThemeData({
     required this.primaryGradient,
     required this.authScreenBackground,
+    required this.authTextColor,
   });
 }
 

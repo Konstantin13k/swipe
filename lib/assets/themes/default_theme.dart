@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:swipe/assets/themes/swipe_theme.dart';
 
 ThemeData defaultTheme() {
   return ThemeData(
     primaryColor: const Color(0xFF27AEA4),
+    textTheme: GoogleFonts.montserratTextTheme(),
   );
 }
 
@@ -25,5 +27,6 @@ SwipeThemeData defaultSwipeTheme() {
         const Color(0xFF0A4A46),
       ],
     ),
+    authTextColor: Colors.white,
   );
 }
