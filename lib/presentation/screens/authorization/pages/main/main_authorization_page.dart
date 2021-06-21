@@ -4,12 +4,12 @@ import 'package:swipe/assets/themes/swipe_theme.dart';
 import 'package:swipe/presentation/blocs/authorization/authorization_bloc.dart';
 import 'package:swipe/utils/extensions.dart';
 
-import 'gradient_button.dart';
-import 'swipe_app_subtitle.dart';
-import 'swipe_app_title.dart';
+import '../../widgets/gradient_button.dart';
+import '../../widgets/swipe_app_subtitle.dart';
+import '../../widgets/swipe_app_title.dart';
 
-class AuthorizationPage extends StatelessWidget {
-  const AuthorizationPage({Key? key}) : super(key: key);
+class MainAuthorizationPage extends StatelessWidget {
+  const MainAuthorizationPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
