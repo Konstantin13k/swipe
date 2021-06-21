@@ -1,0 +1,23 @@
+import 'package:flutter/material.dart';
+
+class Home extends StatelessWidget {
+  const Home({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+        child: Center(
+          child: Text(
+            'Успешная авторизация!',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 40,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}

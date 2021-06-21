@@ -28,5 +28,6 @@ SwipeThemeData defaultSwipeTheme() {
       ],
     ),
     authTextColor: Colors.white,
+    primaryFontFamily: 'Montserrat',
   );
 }
