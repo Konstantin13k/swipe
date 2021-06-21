@@ -47,6 +47,7 @@ class CodeTextField extends StatelessWidget {
       child: PinCodeTextField(
         appContext: context,
         length: codeLength,
+        keyboardType: TextInputType.number,
         cursorColor: swipeTheme.authTextColor,
         autoFocus: true,
         animationType: AnimationType.fade,
