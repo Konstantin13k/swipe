@@ -36,7 +36,7 @@ class LogInPage extends StatelessWidget {
                 ],
               );
             } else {
-              throw Exception('');
+              throw Exception('Unknown state: $state');
             }
           },
         ),
