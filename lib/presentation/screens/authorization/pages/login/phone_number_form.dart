@@ -15,7 +15,7 @@ class PhoneNumberForm extends StatelessWidget {
     return Column(
       children: [
         SizedBox(height: 72),
-        _PhoneNumberEditText(),
+        _PhoneNumberTextField(),
         SizedBox(height: 25),
         GradientButton(
           text: context.strings.proceed,
@@ -30,8 +30,8 @@ class PhoneNumberForm extends StatelessWidget {
   }
 }
 
-class _PhoneNumberEditText extends StatelessWidget {
-  _PhoneNumberEditText({Key? key}) : super(key: key);
+class _PhoneNumberTextField extends StatelessWidget {
+  _PhoneNumberTextField({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
